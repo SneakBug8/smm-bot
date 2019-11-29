@@ -1,0 +1,27 @@
+{
+    "name": "couponsbot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "7.0.0",
+        "node-fetch": "2.6.0",
+        "vk-io": "4.0.0-rc.26",
+        "ws": "7.2.0"
+    },
+    "scripts": {
+        "start": "tsc && node bin/index.js",
+        "build": "tsc",
+        "deploy": "npm run-script build && cd bin && git add . && git commit -m 'Deploy' && git push"
+    },
+    "devDependencies": {
+        "@types/dotenv": "6.1.1",
+        "@types/node": "12.12.5",
+        "@types/node-fetch": "2.5.3",
+        "@types/tough-cookie": "2.3.5",
+        "@types/ws": "6.0.3"
+    }
+}

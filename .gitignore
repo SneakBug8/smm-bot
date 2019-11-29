@@ -1,0 +1,6 @@
+.vscode
+bin
+node_modules
+.env
+package-lock.json
+tsconfig.tsbuildinfo

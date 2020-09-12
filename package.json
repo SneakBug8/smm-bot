@@ -8,7 +8,7 @@
     "license": "ISC",
     "dependencies": {
         "dotenv": "7.0.0",
-        "node-fetch": "2.6.0",
+        "node-fetch": "2.6.1",
         "vk-io": "4.0.0-rc.26",
         "ws": "7.2.0"
     },
